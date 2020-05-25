@@ -1,6 +1,5 @@
 import json
 import requests
-
 opcion=0
 while opcion!=7:
     print("Seleccione una opcion")
