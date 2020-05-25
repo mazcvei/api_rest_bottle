@@ -6,7 +6,7 @@ from Scripts.bottle import route, template
 from bottle import Bottle, run, get, post, put, request, response
 
 app = Bottle()
-print("Cambio en el servidor")
+
 habitaciones = [{'ID': 1, 'Plazas': 3, 'Equipamiento': ['Aire acondicionado', 'Wifi', 'Mini bar'], 'Ocupada': False},
                 {'ID': 2, 'Plazas': 4, 'Equipamiento': ['Wifi', 'Caja fuerte', 'Calefaccion'], 'Ocupada': True},
                 {'ID': 3, 'Plazas': 5, 'Equipamiento': ['Wifi', 'Armario', 'Calefaccion'], 'Ocupada': False}]
